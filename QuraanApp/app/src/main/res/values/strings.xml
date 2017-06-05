@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuraanApp</string>
+    <string name="title_activity_sora">SoraActivity</string>
+    <string name="Back">Back</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="Stop">Stop</string>
+    <string name="Alfatihah">الفاتحة</string>
+    <string name="AlKauthar">الكوثر</string>
+    <string name="Alekhlas">الإخلاص</string>
+    <string name="Alfalaq">الفلق</string>
+    <string name="Annas">الناس</string>
+
+
+
+
+</resources>

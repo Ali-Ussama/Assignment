@@ -1,0 +1,66 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context="com.example.aliosama.porjectandroid.Fragments.Teacher.TCourseFragment">
+
+
+     <TextView
+         android:id="@+id/CourseNameTextView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="TextView"
+         android:layout_margin="10dp"
+         android:layout_gravity="center"/>
+
+     <TextView
+         android:id="@+id/CoursePointTextView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="TextView"
+         android:layout_margin="10dp"/>
+
+     <TextView
+         android:id="@+id/CourseSemesterTextView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="TextView"
+         android:layout_margin="10dp"/>
+
+     <ListView
+         android:id="@+id/StudentListView"
+         android:layout_width="match_parent"
+         android:layout_height="250dp"
+         android:layout_margin="10dp"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_margin="5dp">
+         <Button
+             android:id="@+id/DeleteCourseBtn"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/Delete"
+             android:layout_margin="5dp"
+             android:textAllCaps="false"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+         <Button
+             android:id="@+id/UpdateCourseBtn"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/UpdateCourseBtn"
+             android:layout_margin="5dp"
+             android:textAllCaps="false"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+     </LinearLayout>
+
+
+
+ </LinearLayout>

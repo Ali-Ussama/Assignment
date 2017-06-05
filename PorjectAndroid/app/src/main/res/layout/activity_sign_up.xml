@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliosama.porjectandroid.Activities.Activities.Teacher.SignUpActivity">
+
+
+    <EditText
+        android:id="@+id/ETSingUpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/NameHint" />
+
+    <EditText
+        android:id="@+id/ETSingUpPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ETSingUpName"
+        android:layout_alignRight="@+id/ETSingUpName"
+        android:layout_below="@+id/ETSingUpName"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/PhoneHint"/>
+
+    <EditText
+        android:id="@+id/ETSingUpEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETSingUpPhone"
+        android:layout_alignStart="@+id/ETSingUpPhone"
+        android:layout_below="@+id/ETSingUpPhone"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/EmailHint"/>
+
+    <EditText
+        android:id="@+id/ETSingUpPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ETSingUpEmail"
+        android:layout_alignRight="@+id/ETSingUpEmail"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/PasswordHint"/>
+
+    <CheckBox
+        android:id="@+id/CBTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ETSingUpPassword"
+        android:layout_alignStart="@+id/ETSingUpPassword"
+        android:layout_below="@+id/ETSingUpPassword"
+        android:layout_marginTop="21dp"
+        android:text="@string/CheckBoxTeacher"
+        android:onClick="onCheckBoxListener"/>
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CBTeacher"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/SignUpBtn"
+        android:layout_alignRight="@+id/ETSingUpPassword"
+        android:layout_alignEnd="@+id/ETSingUpPassword"
+        android:layout_alignLeft="@+id/CBTeacher"
+        android:layout_alignStart="@+id/CBTeacher"
+        android:onClick="onSignUpListener"/>
+
+</RelativeLayout>

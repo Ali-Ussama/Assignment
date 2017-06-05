@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PorjectAndroid</string>
+    <string name="profile">Profile</string>
+    <string name="courses">Courses</string>
+    <string name="course">Course</string>
+    <string name="assignments">Assignments</string>
+    <string name="assignment">Assignment</string>
+    <string name="NameHint">Name</string>
+    <string name="PasswordHint">Password</string>
+    <string name="PhoneHint">Phone</string>
+    <string name="EmailHint">Email@gmail.com</string>
+    <string name="LoginBtn">Sign in</string>
+    <string name="SignUpBtn">Sign up</string>
+    <string name="UpdateBtn">Update</string>
+    <string name="AddCourseBtn">Add Course</string>
+    <string name="CheckBoxTeacher">Teacher</string>
+    <string name="CourseName">Course Name</string>
+    <string name="CoursePoint">Course Point</string>
+    <string name="FirstSemester">First Semester</string>
+    <string name="SecondSemester">Second Semester</string>
+
+    <!-- Course Fragment -->
+    <string name="AddAssignmentBtn">Add Assignment</string>
+    <string name="UpdateCourseBtn">Update</string>
+
+    <!-- Add Assignment-->
+    <string name="StartTime">Start Time</string>
+    <string name="EndTime">End Time</string>
+    <string name="TypeOfWork">Type Of Work</string>
+    <string name="Description">Description</string>
+    <string name="Motivation">Motivation</string>
+    <string name="UploadBtn">Upload Assignment</string>
+    <string name="SubmitBtn">Submit</string>
+    <string name="Delete">Delete</string>
+
+
+</resources>

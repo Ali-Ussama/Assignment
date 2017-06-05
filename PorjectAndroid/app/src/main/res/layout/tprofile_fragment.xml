@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliosama.porjectandroid.Fragments.Teacher.TProfileFragment">
+
+    <EditText
+        android:id="@+id/ProfileNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp" />
+
+    <EditText
+        android:id="@+id/ProfilePhoneEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ProfileNameEditText"
+        android:layout_alignRight="@+id/ProfileNameEditText"
+        android:layout_below="@+id/ProfileNameEditText"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/ProfileEmailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/ProfilePhoneEditText"
+        android:layout_alignLeft="@+id/ProfilePhoneEditText"
+        android:layout_alignStart="@+id/ProfilePhoneEditText" />
+
+    <EditText
+        android:id="@+id/ProfilePasswordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ProfileEmailEditText"
+        android:layout_alignRight="@+id/ProfileEmailEditText"
+        android:layout_below="@+id/ProfileEmailEditText"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/ProfileUpdateCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ProfilePasswordEditText"
+        android:layout_alignStart="@+id/ProfilePasswordEditText"
+        android:layout_below="@+id/ProfilePasswordEditText"
+        android:layout_marginTop="26dp"
+        android:text="@string/UpdateBtn"/>
+
+    <Button
+        android:id="@+id/ProfileUpdateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ProfileUpdateCheckBox"
+        android:layout_marginTop="50dp"
+        android:text="@string/UpdateBtn"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignLeft="@+id/ProfileUpdateCheckBox"
+        android:layout_alignStart="@+id/ProfileUpdateCheckBox"
+        android:layout_alignRight="@+id/ProfilePasswordEditText"
+        android:layout_alignEnd="@+id/ProfilePasswordEditText" />
+
+</RelativeLayout>

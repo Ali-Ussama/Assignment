@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliosama.porjectandroid.Activities.Activities.Teacher.AddCourseActivity">
+
+
+    <EditText
+        android:id="@+id/CourseNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/CourseName" />
+
+    <EditText
+        android:id="@+id/CoursePointEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/CourseNameEditText"
+        android:layout_alignRight="@+id/CourseNameEditText"
+        android:layout_below="@+id/CourseNameEditText"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/CoursePoint" />
+
+    <CheckBox
+        android:id="@+id/FirstSemesterCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FirstSemester"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/CoursePointEditText"
+        android:layout_alignLeft="@+id/CoursePointEditText"
+        android:layout_alignStart="@+id/CoursePointEditText" />
+
+    <CheckBox
+        android:id="@+id/SecondSemesterCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SecondSemester"
+        android:layout_below="@+id/FirstSemesterCheckBox"
+        android:layout_alignLeft="@+id/FirstSemesterCheckBox"
+        android:layout_alignStart="@+id/FirstSemesterCheckBox"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/SubmitCourseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/AddCourseBtn"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onSubmitCourseListener"
+        android:layout_below="@+id/SecondSemesterCheckBox"
+        android:layout_alignRight="@+id/CoursePointEditText"
+        android:layout_alignEnd="@+id/CoursePointEditText"
+        android:layout_alignLeft="@+id/SecondSemesterCheckBox"
+        android:layout_alignStart="@+id/SecondSemesterCheckBox" />
+</RelativeLayout>

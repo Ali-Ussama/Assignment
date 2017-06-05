@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aliosama.porjectandroid.Fragments.Teacher.TCoursesFragment">
+
+        <ListView
+            android:id="@+id/CoueseListView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/AddCourseBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/AddCourseBtn"
+        android:textAllCaps="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
