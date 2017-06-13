@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7b7878"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OldGPA"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#f0f0f0"
+        android:id="@+id/OldGPAText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/OldGPAInput"
+        android:layout_below="@+id/OldGPAText"
+        android:layout_centerHorizontal="true" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OldGPACheckbox"
+        android:layout_below="@id/OldGPAText"
+        android:layout_alignBottom="@+id/OldGPAInput"
+        android:layout_alignLeft="@+id/OldGPAText"
+        android:layout_alignStart="@+id/OldGPAText"
+        android:checked="false"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumOfCourses"
+        android:id="@+id/NumOfCoursesText"
+        android:textColor="#f0f0f0"
+        android:textSize="30dp"
+        android:layout_below="@+id/OldGPAInput"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/NumOfCoursesInput"
+        android:layout_below="@+id/NumOfCoursesText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Submit"
+        android:id="@+id/NumOfCoursesbtn"
+        android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+        android:layout_gravity="right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="Action"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/OutputTextVeiw"
+        android:textSize="30dp"
+        android:textColor="#f0f0f0"
+        android:layout_below="@+id/NumOfCoursesbtn"
+        android:layout_toRightOf="@+id/OldGPAText"
+        android:layout_toEndOf="@+id/OldGPAText"
+        android:layout_marginTop="68dp" />
+
+
+
+
+</RelativeLayout>

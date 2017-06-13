@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8066"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/FINAL_GPA_TextView"
+        android:textSize="40dp"
+        android:textColor="#7256ff"
+        android:id="@+id/GPAFinalTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3.0"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#56ff72"
+        android:id="@+id/GPA_Final_result_Number"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Again"
+        android:id="@+id/button"
+        android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+        android:textSize="28dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="#7fffd4"
+        android:onClick="AgainBtnAction"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/GPA_Final_result_Number"
+        android:layout_toEndOf="@+id/GPA_Final_result_Number" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Quit"
+        android:id="@+id/button2"
+        android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+        android:textSize="28dp"
+        android:background="#000000"
+        android:textColor="#ecf3e5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="QuitBtnAction"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/haany"
+        android:layout_below="@+id/GPAFinalTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A7A !"
+        android:textColor="#f0f0f0"
+        android:textSize="40dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="111dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+</RelativeLayout>

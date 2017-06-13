@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a7a5a5"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CreditHourText"
+        android:id="@+id/CreditHourText"
+        android:textColor="#f0f0f0"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/CreditHourInput" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Grade"
+        android:textSize="30dp"
+        android:textColor="#f0f0f0"
+        android:layout_margin="10dp"
+        android:id="@+id/GradeText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/GradeInput" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Submit"
+        android:textAllCaps="@bool/abc_action_bar_embed_tabs"
+        android:layout_marginRight="10dp"
+        android:id="@+id/DegreeInputbtn"
+        android:layout_gravity="right"
+        android:onClick="Caculate_GPA"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Course"
+        android:textSize="30dp"
+        android:textColor="#f0f0f0"
+        android:id="@+id/Output2TextVeiw"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="30dp"/>
+
+    ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:background="#a7a5a5"
+        android:layout_marginTop="8dp"
+        android:id="@+id/CoursesProgressBar"
+        android:layout_below="@+id/OutputTextVeiw"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

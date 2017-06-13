@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GPA</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="FSemester">New Comer</string>
+    <string name="SSemester">Final</string>
+    <string name="NumOfCourses">NumOfCourses</string>
+    <string name="Submit">Submit</string>
+    <string name="CreditHourText">Credit Hours</string>
+    <string name="Grade">Grade</string>
+    <string name="OldGPA">Old GPA</string>
+    <string name="Course">Course 1</string>
+    <string name="FINAL_GPA_TextView">Your GPA is</string>
+    <string name="Again">Again !</string>
+    <string name="Quit">Quit</string>
+
+</resources>

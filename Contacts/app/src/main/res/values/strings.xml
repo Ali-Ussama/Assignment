@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="AddBtn">Add</string>
+    <string name="ViewBtn">View</string>
+    <string name="UpdateBtn">Update</string>
+    <string name="DeleteBtn">Delete</string>
+    <string name="ContactName">John Mark</string>
+    <string name="ContactPhone">01012345678</string>
+
+</resources>
